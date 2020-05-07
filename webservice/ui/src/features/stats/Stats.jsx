@@ -19,6 +19,7 @@ class Stats extends React.Component {
       currentCount: 0,
       currentFrameData: [],
       currentFrameLabels: [],
+      totalCount: 0,
       durations: [],
       currentDurationAvg: "0:00",
       currentDurationData: [],
@@ -61,7 +62,8 @@ class Stats extends React.Component {
       newFrameData = sliceFrameData;
       newLabel = sliceFrameLabels;
     }
-    this.setState( { currentCount: input.count,
+    let totalCount = input.total ? input.total : this.state.totalCount
+    this.setState( { currentCount: input.count, totalCount: totalCount,
       currentFrameLabels: newLabel,
       currentFrameData: newFrameData } );
   }
@@ -184,7 +186,7 @@ class Stats extends React.Component {
         </div>
         <div className={ `total-count-container ${ this.props.totalCountOn ? "" : "hide-count" }` }>
           <button className="counter-close" onClick={ this.props.toggleTotalCount }><FontAwesome name="toggle-right" size="2x" /></button>
-          <DataBox title="Total Counted" data={ this.state.durations.length } color="blue" />
+          <DataBox title="Total Counted" data={ this.state.totalCount } color="blue" />
         </div>
       </div>
     );

@@ -34,14 +34,10 @@ Inference time of model post-conversion was almost twice as fast when compared t
 
 The performance between the pre-conversion and post-conversion model is also due to a difference between cloud and edge computing, respectively. Indeed:
 #### Cloud computing:
-- Cloud Computing is more suitable for projects which deal with massive data storage where latency is not a major concern.
-- Cloud processing power is nearly limitless. 
-- The Cloud can be accessed from anywhere on multiple devices, making ideal for projects that need to be widely distributed and viewed on a variety of platforms. 
-- Because Network communications are expensive (bandwidth, power consumption, etc.) and sometimes impossible (like in remote locations or during natural disasters), cloud computing can be very cost expensive and not always adapt for user needs.
+Cloud Computing is more suitable for projects which deal with big data and where latency is not a major concern. The processing power is very high. Moreover, the Cloud can be accessed from anywhere on multiple devices, making ideal for projects that need to run and used on a variety of platforms. Because Network communications are expensive (bandwidth, power consumption, etc.) and sometimes not possible (like in remote locations or during natural disasters), cloud computing can be very cost expensive and not always adapt for user needs.
+
 #### Edge computing:
-- Edge Computing is regarded as ideal for operations with extreme latency concerns, for example when applications need rapid data sampling or must calculate results with a minimum amount of delay.
-- When there is not enough or reliable network bandwidth to send the data to the cloud, edge computing is a better option than cloud computing.
-- However, Edge Computing requires a robust security plan with advanced authentication methods to avoid external attacks.
+Edge Computing is usually ideal for operations with extreme latency concerns, for example when applications need immediate data snalytics or must calculate results with a minimum amount of latency. When there is not enough or a working network bandwidth to send the data to the cloud, edge computing is a better option than cloud computing. However, Edge Computing requires a robust security and advanced authentication methods to avoid external attacks.
 
 ## Assess Model Use Cases
 

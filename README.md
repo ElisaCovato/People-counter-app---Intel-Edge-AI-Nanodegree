@@ -4,9 +4,6 @@ Project 1 of the **Intel® Edge AI for IoT Developers** Nanodegree Program.
 The backbone of the project is based on the original Udacity/Intel [github repo](https://github.com/udacity/nd131-openvino-fundamentals-project-starter).
 
 
-| Details            |              |
-|-----------------------|---------------|
-| Programming Language: |  Python 3.5 to 3.7 |
 
 ![people-counter-python](./images/people-counter-image.png)
 
@@ -39,6 +36,7 @@ The overall app architecture is described below:
 *   Npm v3.10.10, or higher
 *   CMake
 *   MQTT Mosca server
+*   Programming Language: Python 3.5 to 3.7
   
         
 ## Setup

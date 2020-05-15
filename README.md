@@ -8,7 +8,7 @@ The backbone of the project is based on the original Udacity/Intel [github repo]
 |-----------------------|---------------|
 | Programming Language: |  Python 3.5 to 3.7 |
 
-![people-counter-python](./images/people-counter-image.png=200)
+![people-counter-python](./images/people-counter-image.png)
 
 ## What it Does
 

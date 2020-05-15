@@ -1,5 +1,6 @@
 # Deploy a People Counter App at the Edge
 Project 1 of the **Intel® Edge AI for IoT Developers** Nanodegree Program.
+The backbone of the project is based on the origina Udacity/Intel [github repo](https://github.com/udacity/nd131-openvino-fundamentals-project-starter).
 
 
 | Details            |              |
